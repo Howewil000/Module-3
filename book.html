@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Service | Will's Powerwashing</title>
+  <meta name="description" content="Book powerwashing, oil changes, and junk removal with Will in Fishers, Indiana.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Will's Powerwashing</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="book.html">Book</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Book an Appointment</h2>
+      <form action="https://formsubmit.co/your-email@example.com" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="service">Type of Service:</label>
+        <select id="service" name="service" required>
+          <option value="">Choose one</option>
+          <option value="powerwashing">Powerwashing</option>
+          <option value="oil change">Oil Change</option>
+          <option value="junk removal">Junk Removal</option>
+        </select>
+
+        <button type="submit">Book Appointment</button>
+      </form>
+      <p>Already booked? <a href="mailto:will@indianawash.com">Email us!</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Will’s Powerwashing | <a href="index.html">Back to Home</a></p>
+  </footer>
+</body>
+</html>
